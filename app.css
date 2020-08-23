@@ -14,16 +14,17 @@ header #dark-light-toggle span{font-size: 12px;text-transform: uppercase;color: 
 /* header */
 /* hero section */
 #hero-section{height: 50vh;display: flex;justify-content: center;text-align: center;}
-#hero-section h1{font-size: 48px;margin: 0 0 16px;color: #ffffff;mix-blend-mode: difference;}
+#hero-section h1{font-size: 48px;margin: 0 0 24px;color: #ffffff;mix-blend-mode: difference;line-height: 1.2;}
 #hero-section p{color: #989898;mix-blend-mode: difference;}
 /* hero section */
 /* content section */
 #content-section .card{width: 33.33%;padding: 0 16px;}
 #content-section .card img{height: 320px;object-fit: cover;object-position: top;}
-#content-section .card h2{font-size: 24px;margin: 16px 0 0;color: #ffffff;mix-blend-mode: difference;}
-#content-section .card p{color: #989898;mix-blend-mode: difference;margin: 8px 0 0;}
+#content-section .card .content{background-color: #101010;padding: 16px;mix-blend-mode: difference;}
+#content-section .card .content h2{font-size: 24px;margin: 0;color: #ffffff;mix-blend-mode: difference;}
+#content-section .card .content p{color: #989898;mix-blend-mode: difference;margin: 8px 0 0;}
 /* content section */
 /* footer */
-footer{margin-top: 96px;padding: 24px 0;background-color: #e2e2e2;mix-blend-mode: difference;}
+footer{margin-top: 96px;padding: 24px 0;background-color: #101010;mix-blend-mode: difference;}
 footer p{text-align: center;font-weight: 500;color: #989898;mix-blend-mode: difference;margin:0;}
 /* footer */
